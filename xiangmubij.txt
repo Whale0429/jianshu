@@ -1,0 +1,19 @@
+简书项目笔记:
+可以用第三方模块styled-components即 "styled-components": "^3.3.2"
+实现带样式的组件 之间互不影响 样式独享 避免了样式冲突的问题
+
+多个行内标签className="left"可写为&.left{...} 即 
+<NavItem className='left'>首页</NavItem>
+<NavItem className='left'>下载App</NavItem>
+left可写为
+&.left{
+    float:left;
+}
+
+box-sizing:border-box;
+
+第三方模块CSSTransition:在其组件内自动增加class样式     in{用来控制入场和出场动画 }
+
+redux公共存储框架
+jsx语法要想正常进行编译必须要有 import React from 'react';
+
